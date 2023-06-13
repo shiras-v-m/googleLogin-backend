@@ -17,5 +17,5 @@ server.listen(PORT,()=>{
 server.post('/api/login',(req,res)=>{
     // handle post request
     console.log(req.body);
-    res.redirect('http://localhost:4200/dashboard')
+    res.redirect('https://google-login-frontend.vercel.app/dashboard')
 })
